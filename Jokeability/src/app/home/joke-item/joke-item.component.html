@@ -1,0 +1,25 @@
+<div class="card card-joke">
+    <h5 class="card-header">
+        <div class="row">
+            <div class="pull-left mr-auto align-middle">
+                <div>
+                    <a style="cursor: pointer;" (click)="onViewJoker()">{{joke.jokerName | uppercase}}</a>
+                    &nbsp;                   
+                    <i *ngIf="joke.withBadge" class="fas fa-grin-squint-tears jokeability-badge" style="color: yellowgreen;"></i>
+                </div>               
+            </div>
+            <div class="pull-right">
+               <button class="btn btn-success pulsateAnimate" type="button" (click)="onVoteFunny()">FUNNY <i class="fas fa-laugh-squint"></i></button>
+               &nbsp;
+               <button class="btn btn-danger pulsateAnimate" type="button" (click)="onVoteAww()">AWW.. <i class="far fa-meh"></i></button>
+            </div>
+        </div>        
+    </h5>
+    <div class="card-body" style="overflow-y: auto;">  
+      <h5 class="text-center">{{joke.title | uppercase}}</h5>   
+      <p class="card-text">
+          {{joke.description}}
+      </p>    
+    </div>
+  </div>
+  <br>

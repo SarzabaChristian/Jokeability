@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="navbar-header">
+        <a class="navbar-brand text-light" href="#">JOKEABILITY</a>
+    </div>     
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav mr-auto">
+        <li routerLinkActive="active"><a class="text-light" [routerLink]="['/Home']"><b>HOME</b></a></li>
+        <li *ngIf="isAuthenticated" routerLinkActive="active"><a class="text-light" [routerLink]="['/profile']"><b>PROFILE</b></a></li>
+      </ul> 
+      <ul class="nav navbar-nav navbar-right">
+        <li *ngIf="isAuthenticated" routerLinkActive="active"><a class="text-light" (click)="onLogout()" style="cursor: pointer;"><b>LOGOUT</b></a></li>
+      </ul>   
+      <ul class="nav navbar-nav navbar-right">
+        <li *ngIf="!isAuthenticated" routerLinkActive="active"><a class="text-light" [routerLink]="['/auth']" style="cursor: pointer;"><b>LOGIN</b></a></li>
+      </ul>   
+    </div>           
+</nav>

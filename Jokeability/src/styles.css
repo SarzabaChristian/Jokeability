@@ -1,0 +1,90 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+/* @import '../node_modules/ngx-toastr/toastr.css'; */
+
+
+.center-vertically{
+    position: absolute;    
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.pulsateAnimate:hover {
+    outline: none;
+    animation: pulsate 1s infinite;
+}
+
+.card-joke {
+    height: 20rem;
+    max-height: 20rem;   
+}
+.jokeability-badge {
+    animation: rotate 4s infinite;
+}
+@keyframes pulsate{
+    0%{
+        transform:scale(1);
+        box-shadow: none;
+    }
+    50%{
+        transform:scale(1.1);
+        box-shadow: 0 1rem 4rem rgba(0,0,0,.25);
+    }
+    100%{
+        transform:scale(1);
+        box-shadow: none;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+
+
+.search {
+    font-family: inherit;
+    font-size: inherit;
+    border:1px solid green;
+    color:inherit;
+    padding: .7rem 2rem;
+    border-radius: 100px;
+    width: 55%; 
+    height: 80%;
+    transition:all .2s;
+    margin-right: -3.5rem;
+}
+.search:focus {
+    outline:none;
+    width: 75%; 
+}
+.profile-img {
+    position: absolute;    
+    left: 50%;
+    transform: translate(-50%,0);
+    border: 1px solid blue;
+}
+
+.txt-funny {
+    color: rgba(0,233,0);
+}
+
+.txt-aww {
+    color: rgba(145,0,0);
+}
+
+.txt-rating {
+    color: rgba(145,144,0);
+}

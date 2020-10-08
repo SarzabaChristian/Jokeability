@@ -1,0 +1,36 @@
+<div class="container">
+    <form #jokeForm="ngForm" (ngSubmit)="onCreateJoke()">
+        <div class="row form-group">
+            <label for="joker">JOKER: </label>
+            <input id="joker" type="text" class="form-control" disabled 
+                    value="{{userProfile.firstName + ' ' + userProfile.lastName | uppercase}}">
+        </div>
+        <div class="row form-group">
+            <label for="Title">TITLE: </label>
+            <input id="Title" type="text" [(ngModel)]="newJoke.title" 
+                              #title="ngModel" name="title"  class="form-control" 
+                              required>
+            <div *ngIf="title.touched && title.invalid" class="alert alert-danger form-control">
+                <span *ngIf="title.errors.required">Please fill out the title field</span>
+            </div>
+        </div>
+        <div class="row form-group">
+            <label for="joke">JOKE: </label>
+            <textarea id="joke" type="text" [(ngModel)]="newJoke.description" 
+                                #description="ngModel" class="form-control" 
+                                name="description" rows="5" required>
+            </textarea>
+            <div *ngIf="description.invalid && description.touched" class="alert alert-danger form-control">
+                <span *ngIf="description.errors.required">Please fill out the joke field</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mr-auto">
+                <button type="submit" class="btn btn-success">SAVE</button>                
+            </div>
+            <div>
+                <button type="button" class="btn btn-dark" (click)="onBack()">BACK</button>
+            </div>    
+        </div>
+    </form>    
+</div>

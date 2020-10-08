@@ -1,0 +1,9 @@
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend.DataContext\bin\Debug\netstandard2.0\Jokeability.Backend.DataContext.deps.json
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend.DataContext\bin\Debug\netstandard2.0\Jokeability.Backend.DataContext.dll
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend.DataContext\obj\Debug\netstandard2.0\Jokeability.Backend.DataContext.csprojAssemblyReference.cache
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend.DataContext\obj\Debug\netstandard2.0\Jokeability.Backend.DataContext.csproj.CoreCompileInputs.cache
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend.DataContext\obj\Debug\netstandard2.0\Jokeability.Backend.DataContext.AssemblyInfoInputs.cache
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend.DataContext\obj\Debug\netstandard2.0\Jokeability.Backend.DataContext.AssemblyInfo.cs
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend.DataContext\bin\Debug\netstandard2.0\Jokeability.Backend.DataContext.pdb
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend.DataContext\obj\Debug\netstandard2.0\Jokeability.Backend.DataContext.dll
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend.DataContext\obj\Debug\netstandard2.0\Jokeability.Backend.DataContext.pdb

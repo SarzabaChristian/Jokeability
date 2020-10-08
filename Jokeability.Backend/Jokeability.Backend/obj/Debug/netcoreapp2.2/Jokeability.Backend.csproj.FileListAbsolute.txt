@@ -1,0 +1,17 @@
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\bin\Debug\netcoreapp2.2\Jokeability.Backend.deps.json
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\bin\Debug\netcoreapp2.2\Jokeability.Backend.runtimeconfig.json
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\bin\Debug\netcoreapp2.2\Jokeability.Backend.runtimeconfig.dev.json
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\bin\Debug\netcoreapp2.2\Jokeability.Backend.dll
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\obj\Debug\netcoreapp2.2\Jokeability.Backend.csprojAssemblyReference.cache
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\obj\Debug\netcoreapp2.2\Jokeability.Backend.csproj.CoreCompileInputs.cache
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\obj\Debug\netcoreapp2.2\Jokeability.Backend.RazorAssemblyInfo.cache
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\obj\Debug\netcoreapp2.2\Jokeability.Backend.RazorAssemblyInfo.cs
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\obj\Debug\netcoreapp2.2\Jokeability.Backend.AssemblyInfoInputs.cache
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\obj\Debug\netcoreapp2.2\Jokeability.Backend.AssemblyInfo.cs
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\obj\Debug\netcoreapp2.2\Jokeability.Backend.RazorTargetAssemblyInfo.cache
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\bin\Debug\netcoreapp2.2\Jokeability.Backend.DataContext.dll
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\bin\Debug\netcoreapp2.2\Jokeability.Backend.pdb
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\bin\Debug\netcoreapp2.2\Jokeability.Backend.DataContext.pdb
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\obj\Debug\netcoreapp2.2\Jokeability.Backend.csproj.CopyComplete
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\obj\Debug\netcoreapp2.2\Jokeability.Backend.dll
+C:\Users\sarza\OneDrive\Desktop\Exams\Curo\Jokeability.Backend\Jokeability.Backend\obj\Debug\netcoreapp2.2\Jokeability.Backend.pdb

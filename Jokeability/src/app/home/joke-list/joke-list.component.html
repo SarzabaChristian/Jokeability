@@ -1,0 +1,6 @@
+<div class="text-center" *ngIf="isLoadingData">
+    <br>
+    <br>
+    <h3>Loading Jokes Please Wait...</h3>
+</div>
+<app-joke-item *ngFor="let joke of jokes" [joke]="joke"></app-joke-item>

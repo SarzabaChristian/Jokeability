@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="row">
+        <div class="col-5 col-md-5">
+            <img class="profile-img" src="../../assets/img/defaultProfile.jpg">
+        </div>
+        <div class="col-7 col-md-7">
+            <div class="row">
+                <div class="mr-auto">
+                    <label for="NoOfJokes">JOKES: &nbsp;</label>
+                    <label><b>{{jokerProfile.totalJokes }}</b></label>
+                    &nbsp;
+                    |
+                    &nbsp;
+                    <label for="NoOfJokes">FUNNY REACT: &nbsp;</label>
+                    <label class="txt-funny"><b>{{jokerProfile.funnyJokes}}</b></label>
+                    &nbsp;
+                    |
+                    &nbsp;
+                    <label for="NoOfJokes">AWW REACT: &nbsp;</label>
+                    <label class="txt-aww"><b>{{jokerProfile.awwJokes}}</b></label>
+                    &nbsp;
+                    |
+                    &nbsp;
+                    <label for="NoOfJokes">RATING: &nbsp;</label>
+                    <label class="txt-rating"><b>{{jokerProfile.rating}}</b></label>
+                </div>
+                <div>
+                    <label *ngIf="jokerProfile.isWithBadge">"JOKEABILITY" </label> &nbsp;
+                    <i *ngIf="jokerProfile.isWithBadge" class="fas fa-grin-squint-tears jokeability-badge" style="color: yellowgreen;"></i>
+                </div>
+            </div>
+            <div class="row">
+                <label for="username">USERNAME:</label>
+                <input id="username" type="text" class="form-control" disabled value="{{jokerProfile.username | uppercase}}">
+            </div>
+            <div class="row">
+                <label for="firstName">FIRST NAME:</label>
+                <input id="firstName" type="text" class="form-control" disabled value="{{jokerProfile.firstName | uppercase}}">
+            </div>
+            <div class="row">
+                <label for="lastName">LAST NAME:</label>
+                <input id="lastName" type="text" class="form-control" disabled value="{{jokerProfile.lastName | uppercase}}">
+            </div>       
+            <br>
+            <div *ngIf="isPersonalProfile" class="row">
+                <button type="button" class="btn btn-success" (click)="onNewJoke()">ADD JOKE</button>
+            </div>     
+        </div>
+    </div>
+    
+</div>
